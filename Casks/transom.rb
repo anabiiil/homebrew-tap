@@ -1,5 +1,5 @@
 # Homebrew cask template for Transom's prebuilt macOS CLI.
-# The release workflow substitutes v0.2.1, 0.2.1, 8ea1421fded788a66a39c9775821677d795afaef517e3d88f9deb586f783a345, f9734d2ec035c55d166126ff9b9c9dea0e20be4eb0a33a2008a13be1f2e2402b
+# The release workflow substitutes v0.2.2, 0.2.2, 4f0a3767c9d4e3d66e4e36247c6c34c65d262c7f79bc634cf917d18f2fcf8906, 56872eb17b3eec4f1ba0547e3fe8fabf932f2b98a1e5350fcbaa8b105b9411da
 # and pushes the result to the anabiiil/homebrew-tap repository as
 # Casks/transom.rb — do not edit the generated copy by hand.
 # A cask installs the binary directly, without formula source-build checks
@@ -7,11 +7,11 @@
 cask "transom" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.2.1"
-  sha256 arm:   "8ea1421fded788a66a39c9775821677d795afaef517e3d88f9deb586f783a345",
-         intel: "f9734d2ec035c55d166126ff9b9c9dea0e20be4eb0a33a2008a13be1f2e2402b"
+  version "0.2.2"
+  sha256 arm:   "4f0a3767c9d4e3d66e4e36247c6c34c65d262c7f79bc634cf917d18f2fcf8906",
+         intel: "56872eb17b3eec4f1ba0547e3fe8fabf932f2b98a1e5350fcbaa8b105b9411da"
 
-  url "https://github.com/anabiiil/transom/releases/download/v0.2.1/transom-v0.2.1-darwin-#{arch}.tar.gz"
+  url "https://github.com/anabiiil/transom/releases/download/v0.2.2/transom-v0.2.2-darwin-#{arch}.tar.gz"
   name "Transom"
   desc "Careful disk cleaner for macOS"
   homepage "https://github.com/anabiiil/transom"
