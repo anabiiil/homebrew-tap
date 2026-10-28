@@ -1,20 +1,20 @@
 # Homebrew formula template for Mullion.
-# The release workflow substitutes v2.3.1, 2.3.1, 76b4e6ea63aaed4b0444fd8b6bda0ce12631bc5478c79e1eafb72199c3063337, 0344d8ad1504b3a5acd3928e5356ea25d2e6e50b1872f3bc7af8f859d81c9116
+# The release workflow substitutes v2.4.0, 2.4.0, 8e5fa815eaa84b743b7f1e9eb97e6f8044036f07732e572d95da1ade5385ee86, 60e77852f1a077c04e4362a0fd6848d2540d3b97e83d21bb802962dc7362bdfc
 # and pushes the result to the anabiiil/homebrew-tap repository as
 # Formula/mullion.rb — do not edit the generated copy by hand.
 class Mullion < Formula
   desc "PHP version manager & local dev server (Caddy, MySQL, .test domains, HTTPS)"
   homepage "https://github.com/anabiiil/mullion"
-  version "2.3.1"
+  version "2.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/anabiiil/mullion/releases/download/v2.3.1/mullion-v2.3.1-darwin-arm64.tar.gz"
-      sha256 "76b4e6ea63aaed4b0444fd8b6bda0ce12631bc5478c79e1eafb72199c3063337"
+      url "https://github.com/anabiiil/mullion/releases/download/v2.4.0/mullion-v2.4.0-darwin-arm64.tar.gz"
+      sha256 "8e5fa815eaa84b743b7f1e9eb97e6f8044036f07732e572d95da1ade5385ee86"
     else
-      url "https://github.com/anabiiil/mullion/releases/download/v2.3.1/mullion-v2.3.1-darwin-amd64.tar.gz"
-      sha256 "0344d8ad1504b3a5acd3928e5356ea25d2e6e50b1872f3bc7af8f859d81c9116"
+      url "https://github.com/anabiiil/mullion/releases/download/v2.4.0/mullion-v2.4.0-darwin-amd64.tar.gz"
+      sha256 "60e77852f1a077c04e4362a0fd6848d2540d3b97e83d21bb802962dc7362bdfc"
     end
   end
 
